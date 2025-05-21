@@ -1,0 +1,2 @@
+APP_URL=<https://fachruddinfahma.github.io/DicodingAkhir/>
+MAP_SERVICE_API_KEY=<api_key>
