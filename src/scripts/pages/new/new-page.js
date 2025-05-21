@@ -271,16 +271,9 @@ export default class NewPage {
 
     // Setup untuk tombol ambil gambar
     this.#camera.addCheeseButtonListener("#camera-take-button", async () => {
-      // Ambil gambar baru dari kamera
       const image = await this.#camera.takePicture();
-
-      // Menghapus gambar sebelumnya (jika ada)
       this.#takenDocumentations = [];
-
-      // Menambahkan gambar baru ke array dokumentasi
       await this.#addTakenPicture(image);
-
-      // Memperbarui daftar gambar yang diambil
       await this.#populateTakenPictures();
     });
   }

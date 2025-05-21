@@ -1,3 +1,4 @@
+
 export default class HomePresenter {
     #view;
     #model;
@@ -32,6 +33,8 @@ export default class HomePresenter {
         this.#view.hideSubmitLoadingButton();
       }
     }
+
+    
   }
   
   
