@@ -10,7 +10,7 @@ self.addEventListener("push", (event) => {
   event.waitUntil(chainPromise());
 });
 
-const CACHE_NAME = "maricerita-v1";
+const CACHE_NAME = "maricerita-v2";
 const urlsToCache = [
   "./",
   "./index.html",
